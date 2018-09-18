@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BFB2BAAB-AE9F-426B-9D9F-B5AFF0109BFD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CardGame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CARD.h" />
+    <ClInclude Include="CardGame.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CARD.cpp" />
+    <ClCompile Include="CardGame.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CardGame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap1.bmp" />
+    <Image Include="bitmap2.bmp" />
+    <Image Include="bitmap55.bmp" />
+    <Image Include="CardGame.ico" />
+    <Image Include="Image1.bmp" />
+    <Image Include="Image10.bmp" />
+    <Image Include="Image11.bmp" />
+    <Image Include="Image12.bmp" />
+    <Image Include="Image13.bmp" />
+    <Image Include="Image14.bmp" />
+    <Image Include="Image15.bmp" />
+    <Image Include="Image16.bmp" />
+    <Image Include="Image17.bmp" />
+    <Image Include="Image18.bmp" />
+    <Image Include="Image19.bmp" />
+    <Image Include="Image2.bmp" />
+    <Image Include="Image20.bmp" />
+    <Image Include="Image21.bmp" />
+    <Image Include="Image22.bmp" />
+    <Image Include="Image23.bmp" />
+    <Image Include="Image24.bmp" />
+    <Image Include="Image25.bmp" />
+    <Image Include="Image26.bmp" />
+    <Image Include="Image27.bmp" />
+    <Image Include="Image28.bmp" />
+    <Image Include="Image29.bmp" />
+    <Image Include="Image3.bmp" />
+    <Image Include="Image30.bmp" />
+    <Image Include="Image31.bmp" />
+    <Image Include="Image32.bmp" />
+    <Image Include="Image33.bmp" />
+    <Image Include="Image34.bmp" />
+    <Image Include="Image35.bmp" />
+    <Image Include="Image36.bmp" />
+    <Image Include="Image37.bmp" />
+    <Image Include="Image38.bmp" />
+    <Image Include="Image39.bmp" />
+    <Image Include="Image4.bmp" />
+    <Image Include="Image40.bmp" />
+    <Image Include="Image41.bmp" />
+    <Image Include="Image42.bmp" />
+    <Image Include="Image43.bmp" />
+    <Image Include="Image44.bmp" />
+    <Image Include="Image45.bmp" />
+    <Image Include="Image46.bmp" />
+    <Image Include="Image47.bmp" />
+    <Image Include="Image48.bmp" />
+    <Image Include="Image49.bmp" />
+    <Image Include="Image5.bmp" />
+    <Image Include="Image50.bmp" />
+    <Image Include="Image51.bmp" />
+    <Image Include="Image52.bmp" />
+    <Image Include="Image53.bmp" />
+    <Image Include="Image54.bmp" />
+    <Image Include="Image6.bmp" />
+    <Image Include="Image7.bmp" />
+    <Image Include="Image8.bmp" />
+    <Image Include="Image9.bmp" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

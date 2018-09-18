@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CardGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CARD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CardGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CARD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CardGame.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="CardGame.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image7.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image8.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image9.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image10.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image11.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image12.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image13.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image14.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image15.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image16.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image17.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image18.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image19.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image20.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image21.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image22.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image23.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image24.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image25.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image26.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image27.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image28.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image29.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image30.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image31.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image32.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image33.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image34.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image35.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image36.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image37.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image38.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image39.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image40.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image41.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image42.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image43.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image44.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image45.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image46.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image47.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image48.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image49.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image50.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image51.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image52.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image53.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Image54.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bitmap55.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

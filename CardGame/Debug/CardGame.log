@@ -1,0 +1,46 @@
+﻿生成启动时间为 2018/9/13 23:27:33。
+     1>项目“E:\visual studio操作文件\CardGame\CardGame\CardGame.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CardGame.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CARD.cpp
+         CARD.cpp
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(234): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(246): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(267): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(284): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(303): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(315): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(333): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(352): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(429): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(433): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(478): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(503): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(526): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(528): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(542): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(572): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(574): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(618): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(718): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(736): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(793): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(818): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(859): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(865): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(867): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(886): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(902): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(934): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(958): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\visual studio操作文件\cardgame\cardgame\card.cpp(978): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\visual studio操作文件\CardGame\Debug\CardGame.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\visual studio操作文件\CardGame\Debug\CardGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\visual studio操作文件\CardGame\Debug\CardGame.lib" /MACHINE:X86 Debug\CardGame.res
+         Debug\CARD.obj
+         Debug\CardGame.obj
+         Debug\stdafx.obj
+         CardGame.vcxproj -> E:\visual studio操作文件\CardGame\Debug\CardGame.exe
+     1>已完成生成项目“E:\visual studio操作文件\CardGame\CardGame\CardGame.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.32
